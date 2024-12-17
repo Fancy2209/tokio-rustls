@@ -31,5 +31,5 @@ argh = "0.1.1"
 futures-util = "0.3.1"
 lazy_static = "1.1"
 rcgen = { version = "0.13", features = ["pem"] }
-tokio = { version = "1.0", features = ["full"] }
+tokio = { git = "https://github.com/Fancy2209/tokio.git", branch = "Haiku", features = ["full"] }
 webpki-roots = "0.26"
